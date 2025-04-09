@@ -67,8 +67,8 @@ const Header = () => {
           className="md:hidden px-4 mt-2 space-y-2 text-sm font-medium text-[#5a3e2b] absolute bg-white w-full left-0 z-50 shadow-md py-4"
         >
           <Link href="/" onClick={closeMenu} className="block hover:text-[#a97449]">Home</Link>
-          <Link href="/services" onClick={closeMenu} className="block hover:text-[#a97449]">Services</Link>
-          <Link href="/about" onClick={closeMenu} className="block hover:text-[#a97449]">About Us</Link>
+          <Link href="/Service" onClick={closeMenu} className="block hover:text-[#a97449]">Services</Link>
+          <Link href="/About" onClick={closeMenu} className="block hover:text-[#a97449]">About Us</Link>
           <Link href="/contact" onClick={closeMenu} className="block hover:text-[#a97449]">Contact</Link>
         </div>
       )}
