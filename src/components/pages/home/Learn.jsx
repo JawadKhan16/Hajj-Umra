@@ -47,12 +47,14 @@ const Learn = () => {
       allowFullScreen
     ></iframe>
   </div>
-  <p className="text-center mt-2 font-medium">How to Perform Hajj
+  <span>
+  <p className="text-center mt-2 font-medium">How to Perform Hajj</p>
   <p className="text-center text-sm text-gray-600 mt-1 px-2 md:px-10">
   A comprehensive visual guide to performing Hajj, explaining all the rituals, timings, and spiritual meanings in one place.<br></br>
   Whether it’s your first or fifth time, this walkthrough of the Hajj rites helps deepen your understanding and devotion.
   </p>
-  </p>
+  </span>
+  
 
   <div className="w-full h-[200px] md:h-[300px]">
     <iframe
@@ -63,13 +65,13 @@ const Learn = () => {
       allowFullScreen
     ></iframe>
   </div>
-
-  <p className="text-center mt-2 font-medium">How to Perform Umrah
+<span>
+<p className="text-center mt-2 font-medium">How to Perform Umra</p>
   <p className="text-sm text-gray-600 mt-1">
     A complete guide for first-timers and seasoned travelers alike — learn about the key steps, important duas, and spiritual etiquette during Umrah.<br></br>
     Step into the sacred journey with clarity this guide walks you through each ritual with spiritual insights and practical tips.
   </p>
-  </p>
+</span>
   
 
   
