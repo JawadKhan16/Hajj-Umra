@@ -51,7 +51,7 @@ const Header = () => {
           <Link href="/" className="hover:text-[#a97449]">Home</Link>
           <Link href="/Service" className="hover:text-[#a97449]">Services</Link>
           <Link href="/About" className="hover:text-[#a97449]">About Us</Link>
-          <Link href="/contact" className="hover:text-[#a97449]">Contact</Link>
+          <Link href="/Contact" className="hover:text-[#a97449]">Contact</Link>
         </nav>
 
         {/* Mobile Hamburger */}
@@ -69,7 +69,7 @@ const Header = () => {
           <Link href="/" onClick={closeMenu} className="block hover:text-[#a97449]">Home</Link>
           <Link href="/Service" onClick={closeMenu} className="block hover:text-[#a97449]">Services</Link>
           <Link href="/About" onClick={closeMenu} className="block hover:text-[#a97449]">About Us</Link>
-          <Link href="/contact" onClick={closeMenu} className="block hover:text-[#a97449]">Contact</Link>
+          <Link href="/Contact" onClick={closeMenu} className="block hover:text-[#a97449]">Contact</Link>
         </div>
       )}
     </header>
